@@ -46,7 +46,7 @@ The script prints the table above and writes `patterns.png` and `error_vs_noise.
 ## Limitations
 
 - The forward model is purely kinematic (no multiple/dynamical scattering) and the crystal is a toy 2-D lattice. It does not model surface electron backscattering.
-- Reconstruction starts from a guess close to the truth ($a_0 = 1.02\,a_\mathrm{true}$, $\delta_0 = 0$). I have not tested convergence from distant starting points, and the pattern has sharp peaks, so local minima are likely.
+- Reconstruction starts from a guess close to the truth ($a_0 = 1.02 \times a_\mathrm{true}$, $\delta_0 = 0$). I have not tested convergence from distant starting points, and the pattern has sharp peaks, so local minima are likely.
 - Only two parameters are fitted, and the error values are means over only 8 noise realisations per dose.
 
 ## Possible next steps
